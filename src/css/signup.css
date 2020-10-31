@@ -1,0 +1,190 @@
+body{
+   background-image: url(' https://web-static.uenicdn.com/static/images/login/background.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login__card{
+    margin-top: 60px;
+    width: 539px;
+    height: 676px;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: rgba(35, 11, 78, 0.31) 0px 27px 34px 0px;
+    padding: 75px 30px 50px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+        display: flex;
+        background: rgb(255, 255, 255);
+    flex-direction: column;
+}
+.login__card .card-title h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 35px;
+    margin-bottom: 34px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+.login__card .card-title a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.social__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.social__links a:first-child{
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    border-radius: 4px;
+    padding: 2px 10px 2px 2px;  
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background: rgb(59, 94, 167);
+    max-width: 230px;
+    color: white;
+}
+.social__links a:last-child{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(66, 133, 244);
+    width: auto;
+    border-radius: 4px;
+    padding: 2px 10px 2px 2px;
+    text-align: left;
+    color: white;
+   
+}
+.social__links a i{
+    padding: 10px 12px;
+    border-radius: 4px;
+    background: white;
+    color: rgb(59, 94, 167);
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 12px;
+}
+.social__links a svg{
+    background: white;
+    display: block;
+    width: 36px;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 36px;
+        padding: 8px;
+}
+.input__name span{
+    margin-top: 32px;
+    margin-bottom: 12px;
+    letter-spacing: 0.35px;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+    font-family: Lato, sans-serif;
+    margin-bottom: 35px;
+    display: block;
+}
+.container-m{
+    width: 80%;
+    margin: 0 auto;
+}
+form input{
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    width: 100%;
+    padding: 16px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid rgb(153, 153, 153);
+}
+form input:last-child{
+    border: none;
+    margin-bottom: 35px;
+}
+.input__name button{
+    background-color: rgb(255, 74, 0);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    min-width: 80px;
+    font-family: 'Montserrat', sans-serif;
+    height: 4rem;
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    border: none;
+    letter-spacing: 0.00625rem;
+    border-radius: 2rem;
+    padding: 0px 3.1rem;
+    margin-bottom: 35px;
+}
+.additional__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.additional__links a:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.35px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: rgb(51, 51, 51);
+}
+.additional__links a:last-child{
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration: none;
+    /* margin-bottom: 15px; */
+}
